@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* scroll snap support for all browsers */
+html, body {
+  scroll-behavior: smooth;
+  overscroll-behavior-y: contain;
+}

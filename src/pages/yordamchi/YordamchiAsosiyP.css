@@ -1,0 +1,39 @@
+
+.YordamchiAsosiyP{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    width: 100%;
+    height: 100vh;
+    background-color: #f0f0f0; /* Light background for better visibility */
+}
+.YordamchiHEader{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10vh; /* Adjusted height for header */
+    background-color: #1d2632; /* Header background color */
+    color: rgb(247, 238, 238); /* Text color for better contrast */
+}
+
+.YordamchiSelect{
+    width: 130px;
+    height: 30px;
+    right: 10px;
+    position: absolute;
+    top: 10px;
+    border: 1px solid #ccc; /* Light border for better visibility */
+    border-radius: 4px; /* Rounded corners */
+}
+.YordamchiSelect option {
+    padding: 5px; /* Padding for better spacing */
+    background-color: #fff; /* White background for options */
+    color: #333; /* Dark text color for contrast */
+    border: none; /* Remove default border */
+    cursor: pointer; /* Pointer cursor for better UX */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    
+}
